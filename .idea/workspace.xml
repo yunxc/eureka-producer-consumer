@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="233f53d5-6669-443e-b7f5-9c7e81447866" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/spring-cloud-producer/spring-cloud-producer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-producer/spring-cloud-producer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-consumer/spring-cloud-consumer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/target/classes/com/neo/SpringCloudEurekaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/target/test-classes/com/neo/SpringCloudEurekaApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-producer/spring-cloud-producer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-producer/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-producer/target/classes/com/neo/ProducerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-producer/target/classes/com/neo/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-producer/target/classes/com/neo/controller/remote/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-producer/target/test-classes/com/neo/ProducerApplicationTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-eureka/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-consumer/target/" />
@@ -40,12 +52,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="txt" value="20" />
+          <entry key="txt" value="26" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -100,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-producer/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="319">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -126,11 +140,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-cloud-producer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            <state relative-caret-position="312">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -161,7 +175,6 @@
       <list>
         <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/neo/controller/ServiceController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/neo/controller/CallHelloController.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-producer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-producer/src/main/java/com/neo/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-producer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-cloud-consumer/pom.xml" />
@@ -170,6 +183,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/neo/remote/Hello.java" />
         <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/neo/remote/HelloRemote.java" />
         <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/neo/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-producer/pom.xml" />
       </list>
     </option>
   </component>
@@ -209,7 +223,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="223" />
+    <option name="x" value="244" />
+    <option name="y" value="16" />
     <option name="width" value="1516" />
     <option name="height" value="837" />
   </component>
@@ -228,55 +243,17 @@
             <path>
               <item name="eureka-producer-consumer" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka-producer-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka-producer-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-producer-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka-producer-consumer" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka-producer-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="spring-cloud-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka-producer-consumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-producer-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka-producer-consumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-producer-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka-producer-consumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-producer-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="neo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka-producer-consumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-producer-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="neo" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka-producer-consumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-producer-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -295,7 +272,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566367009355" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566367234050" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -476,7 +453,7 @@
       <workItem from="1565969839473" duration="1908000" />
       <workItem from="1565971977803" duration="4630000" />
       <workItem from="1566011845957" duration="1223000" />
-      <workItem from="1566366296054" duration="703000" />
+      <workItem from="1566366296054" duration="927000" />
     </task>
     <task id="LOCAL-00001" summary="spring cloud Eureka 模式">
       <created>1566013061340</created>
@@ -492,16 +469,31 @@
       <option name="project" value="LOCAL" />
       <updated>1566366940980</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="删除 .idea">
+      <created>1566367072757</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566367072757</updated>
+    </task>
+    <task id="LOCAL-00004" summary="删除 target">
+      <created>1566367149185</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566367149185</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8464000" />
+    <option name="totallyTimeSpent" value="8688000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="223" y="0" width="1516" height="837" extended-state="0" />
+    <frame x="244" y="16" width="1516" height="837" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23695055" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23695055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -517,7 +509,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5006868" side_tool="true" visible="true" weight="0.32290184" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006868" side_tool="true" visible="true" weight="0.32290184" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -549,7 +541,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring cloud Eureka 模式" />
     <MESSAGE value="删除 .idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除 .idea" />
+    <MESSAGE value="删除 target" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除 target" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -626,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-producer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-producer/src/main/java/com/neo/ProducerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -642,8 +628,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-producer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="319">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
